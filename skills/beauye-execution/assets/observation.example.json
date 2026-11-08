@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "orders-filter-operator",
+  "task_id": "orders-review",
+  "kind": "interaction",
+  "result": "unverified",
+  "origin": {"kind": "agent", "reference": "Example only; replace with actual observation origin."},
+  "fingerprint": "replace-with-current-check-output",
+  "environment": {"runtime": null, "data": null, "roles": null},
+  "subject": {
+    "page_id": "orders", "role": "operator", "viewport": [1440, 900],
+    "state": "default", "data_condition": "Replace with actual representative data."
+  },
+  "check_id": "filter",
+  "action": "Filter orders by status.",
+  "expected": "Only matching orders remain visible.",
+  "actual": "Not performed; this file shows the record structure only.",
+  "artifacts": []
+}

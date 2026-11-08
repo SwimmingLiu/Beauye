@@ -1,0 +1,8 @@
+.agents/
+docs/
+evals/
+.beauye/
+.beauye-evals/
+__pycache__/
+*.py[cod]
+.DS_Store

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "task_id": "orders-review",
+  "mode": "review",
+  "project_root": "/absolute/path/to/project",
+  "rule_version": 1,
+  "change_scope": {"paths": [], "source": "User requested review only; no code changes."},
+  "review_scope": {"kind": "full", "source": "Original full-page review baseline."},
+  "plan_path": "plan.md",
+  "desktop_viewport": [1440, 900],
+  "environment": {"runtime": null, "data": null, "roles": null},
+  "page_inventory": {
+    "complete": false,
+    "sources": {"routes": null, "navigation": null, "permissions": null},
+    "pages": [{
+      "id": "orders", "route": "/orders", "roles": ["operator"],
+      "affected": false, "mobile": true, "screenshot_required": false,
+      "states": ["default", "loading", "empty", "error"],
+      "interactions": ["filter", "paginate", "keyboard"]
+    }]
+  },
+  "project_checks": [{"id": "lint", "command": ["npm", "run", "lint"], "required": true}]
+}

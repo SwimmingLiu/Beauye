@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "reviewer_kind": "agent",
+  "assessment": "unverified",
+  "target": {
+    "task_reference": null,
+    "implementation_fingerprint": null,
+    "contract_fingerprint": null,
+    "runtime": null,
+    "data": null,
+    "roles": []
+  },
+  "scope": {
+    "kind": "limited",
+    "authority": null,
+    "pages": []
+  },
+  "reviewed": [],
+  "findings": [],
+  "unverified": [
+    {
+      "page": null,
+      "role": null,
+      "viewport": null,
+      "state": null,
+      "check": "pagination",
+      "reason": "示例尚未指定实际页面与跨页数据。",
+      "next_action": "使用跨页数据依次操作下一页、上一页和末页，并核对内容、页码与禁用状态。"
+    }
+  ],
+  "optional_suggestions": []
+}

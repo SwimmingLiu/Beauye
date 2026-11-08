@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beauye 执行与验收"
+  short_description: "用于页面实现前后检查、真实浏览器验收和证据完整性与过期结果核对"
+  default_prompt: "使用 $beauye-execution 检查这个项目的页面实现，保留完整页面清单、实际证据与未验证项。"
